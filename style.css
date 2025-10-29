@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eef2f5;
+  font-family: "Inter", sans-serif;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  min-height:100vh;
+}
+.login-container {
+  width: 100%;
+  max-width:400px;
+  height:500px;
+  background-color:white;
+  padding:50px 40px;
+}
+.login-options div img{
+  height:25px;
+}
+.login-heading h2{
+  font-size:25px;
+  margin-bottom:10px;
+}
+.login-heading p{
+  font-size:13px;
+  color:gray;
+  margin-bottom:30px;
+}
+.form-input input{
+  width:100%;
+  padding:10px;
+  border-radius:4px;
+  border:1px solid grey;
+  margin-bottom:10px;
+  font-size:15px;
+}
+.login-options-container {
+  margin-bo
+}
+.login-options-container p{
+  margin-bottom: 20px;
+  color:grey;
+}
+.login-options{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:20px;
+}
+.login-options div{
+  padding:10px 30px;
+  background-color:#f7f7f7;
+  border-radius:4px;
+  margin-bottom:20px;
+}
+.form-container button {
+  width:100%;
+  background-color: #0366ff;
+  border:none;
+  color:white;
+  padding: 10px 30px;
+  border-radius:4px;
+}
+.form-input input:focus{
+  border-color:#0366ff;
+  outline-color: #0366ff;
+}
